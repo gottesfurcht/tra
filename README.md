@@ -19,7 +19,7 @@ Convert the mybible source text to the [`IMP` format](https://www.crosswire.org/
 
     ./convert
 
-This will create the file `tra.imp` from the source module `tra.bbl.mybible`. Then the `IMP` format to a SWORD module:
+This will create the file `tra.imp` from the source module `tra.bbl.mybible`. Then convert the `IMP` file to a SWORD module:
 
     tra.imp -z -o tra
 
