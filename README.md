@@ -21,6 +21,6 @@ Convert the mybible source text to the [`IMP` format](https://www.crosswire.org/
 
 This will create the file `tra.imp` from the source module `tra.bbl.mybible`. Then convert the `IMP` file to a SWORD module:
 
-    tra.imp -z -o tra
+    imp2vs tra.imp -o tra -z
 
 Then copy the module directory `tra` to `~/.sword/modules/texts/ztext/` and the conf file `tra.conf` to `~/.sword/mods.d/`
